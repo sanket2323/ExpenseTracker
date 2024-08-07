@@ -21,6 +21,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.expensetracker.R
+import com.example.expensetracker.ui.theme.green_color
 
 @Composable
 fun TransactionList(modifier: Modifier) {
@@ -47,7 +48,7 @@ fun TransactionList(modifier: Modifier) {
                     image = R.drawable.ic_netflix,
                     title = "Netflix",
                     amount = "$3000",
-                    color = Color.Green,
+                    color = green_color,
                     date = "23/02/2004"
                 )
 
@@ -56,7 +57,7 @@ fun TransactionList(modifier: Modifier) {
                     image = R.drawable.ic_netflix,
                     title = "Netflix",
                     amount = "$3000",
-                    color = Color.Green,
+                    color = green_color,
                     date = "23/02/2004"
                 )
                 TransactionListItem(
@@ -64,7 +65,7 @@ fun TransactionList(modifier: Modifier) {
                     image = R.drawable.ic_netflix,
                     title = "Netflix",
                     amount = "$3000",
-                    color = Color.Green,
+                    color = green_color,
                     date = "23/02/2004"
                 )
                 TransactionListItem(
@@ -72,7 +73,7 @@ fun TransactionList(modifier: Modifier) {
                     image = R.drawable.ic_netflix,
                     title = "Netflix",
                     amount = "$3000",
-                    color = Color.Green,
+                    color = green_color,
                     date = "23/02/2004"
                 )
                 TransactionListItem(
@@ -80,7 +81,7 @@ fun TransactionList(modifier: Modifier) {
                     image = R.drawable.ic_netflix,
                     title = "Netflix",
                     amount = "$3000",
-                    color = Color.Green,
+                    color = green_color,
                     date = "23/02/2004"
                 )
                 TransactionListItem(
@@ -88,7 +89,7 @@ fun TransactionList(modifier: Modifier) {
                     image = R.drawable.ic_netflix,
                     title = "Netflix",
                     amount = "$3000",
-                    color = Color.Green,
+                    color = green_color,
                     date = "23/02/2004"
                 )
             }
